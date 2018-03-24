@@ -1,2 +1,8 @@
-# git
-recorde how to use git
+# Git 基础
+## git的三种状态
+* 已提交(commited)
+	* 表示文件已提交到本地的数据库
+* 已修改(modified)
+	* 表示文件已经修改，但是没有暂存
+* 已暂存(staged)
+	* 表示文件已暂存，但没提交到本地数据库，包含在下次提交中
