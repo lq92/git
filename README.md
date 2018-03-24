@@ -3,15 +3,15 @@
 	* [Git的三种状态](#status)
 	* [Git的三个工作区域](#work_area)
 	* [Git配置](#config)
-* ## <span id='base'>Git 基础</span>
-	* ### <span id='status'>Git的三种状态</span>
+* ## <h2 id='base'>Git 基础</h2>
+	* ### <h3 id='status'>Git的三种状态</h3>
 		* 已提交(commited)
 			* 表示文件已提交到本地的数据库
 		* 已修改(modified)
 			* 表示文件已经修改，但是没有暂存
 		* 已暂存(staged)
 			* 表示文件已暂存，但没提交到本地数据库，包含在下次提交中
-	* ### <span id='work_area'>Git的三个工作区域</span>: 
+	* ### <h3 id='work_area'>Git的三个工作区域</h3>: 
 		* 工作目录
 			* 此目录保存的是从git仓库中拉取的文件，并用于操作的文件
 		* 暂存区域
@@ -29,7 +29,7 @@
 		```
 			git commit -m "commit information"
 		```
-	* ### <span id='config'>Git配置</span>	
+	* ### <h3 id='config'>Git配置</h3>	
 		* #### 配置用户信息
 			**git的每次提交都会使用这些信息，且会写入到每一次提交中**
 			```
