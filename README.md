@@ -1,7 +1,7 @@
 # Recorde the knowledge of Git and how to use it
-* [Git 基础][base]
+* [Git 基础](#base)
 	* [Git的三种状态][status]
-* ## [base]: Git 基础
+* ## <span id='base'>Git 基础</span>
 	* ### [status]Git的三种状态
 		* 已提交(commited)
 			* 表示文件已提交到本地的数据库
