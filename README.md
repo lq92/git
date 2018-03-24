@@ -2,6 +2,7 @@
 * [Git 基础](#base)
 	* [Git的三种状态](#status)
 	* [Git的三个工作区域](#work_area)
+	* [Git配置](#config)
 * ## <span id='base'>Git 基础</span>
 	* ### <span id='status'>Git的三种状态</span>
 		* 已提交(commited)
@@ -36,6 +37,15 @@
 			 git config --global user.email "your email"
 			```
 			**如果配置用户信息使用了--global选项，那么git每次操作都会使用这些信息**
+		* #### 配置编辑器
+			```
+			 git config --global core.editor "editor root path"
+			```	
+		* #### 查看配置信息
+			```
+			 git config --list || git config configname
+			```	
+			**Windows用户可以在c/user/administrator/.gitconfig中找到配置信息**
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
