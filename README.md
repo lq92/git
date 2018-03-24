@@ -1,9 +1,12 @@
 # Recorde the knowledge of Git and how to use it
-* [Git 基础](#base)
+* [Git 介绍](#introduce)
 	* [Git的三种状态](#status)
 	* [Git的三个工作区域](#work_area)
 	* [Git配置](#config)
-* ## <h2 id='base'>Git 基础</h2>
+	* [获取帮助](#help)
+* [Git 基础](#base)	
+	* [Git 仓库](#repository)
+* ## <h2 id='introduce'>Git 介绍</h2>
 	* ### <h3 id='status'>Git的三种状态</h3>
 		* 已提交(commited)
 			* 表示文件已提交到本地的数据库
@@ -43,9 +46,28 @@
 			```	
 		* #### 查看配置信息
 			```
-			 git config --list || git config configname
+			 git config --list || git config configname(checkout one of the config information )
 			```	
 			**Windows用户可以在c/user/administrator/.gitconfig中找到配置信息**
+	* ### <h3 id='help'>获取帮助</h3>
+		```
+		 git help <verb>
+		 git <verb> --help	
+		```
+		#### 例如要获得配置的帮助
+			```
+				git help config || git config --help
+			``` 		
+* ## <h2 id='base'>Git 基础</h2>
+	* ### <h3 id='repository'>Git 仓库</h3>	
+	有两种方式创建git仓库
+		* 在现有项目或目录中导入文件到git中
+			* 在一个空的目录中
+				```
+					git init
+				```
+				这样就可以初始化一个.git文件夹，这里包含Git仓库所有的必须文件，** 此时文件未跟踪 **
+		* 从服务器克隆一个现有的git仓库		
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
