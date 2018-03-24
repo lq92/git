@@ -60,7 +60,6 @@
 			git help config || git config --help
 * ## <h2 id='base'>Git 基础</h2>
 	* ### <h3 id='repository'>Git 仓库</h3>	
-	有两种方式创建git仓库
 		* 在现有项目或目录中导入文件到git中
 			* 在一个空的目录中
 				```
