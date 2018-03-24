@@ -29,13 +29,13 @@
 			git commit -m "commit information"
 		```
 	* ### <span id='config'>Git配置</span>	
-		* ####配置用户信息
-			** git的每次提交都会使用这些信息，且会写入到每一次提交中 **
+		* #### 配置用户信息
+			**git的每次提交都会使用这些信息，且会写入到每一次提交中**
 			```
 			 git config --global user.name "your name"
 			 git config --global user.email "your email"
 			```
-			** 如果配置用户信息使用了--global选项，那么git每次操作都会使用这些信息 **
+			**如果配置用户信息使用了--global选项，那么git每次操作都会使用这些信息**
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
