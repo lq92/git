@@ -67,19 +67,19 @@
 					git init
 				```
 				这样就可以初始化一个.git文件夹，这里包含Git仓库所有的必须文件
-				[empty](src/base/empty.png)
+				![empty](src/base/empty.png)
 			* 在有项目的目录中
 				```
 					git init
 				```	
 				此时原有目录中的文件是未跟踪的状态
-				[has](src/base/has.png)
+				![has](src/base/has.png)
 		* 从服务器克隆一个现有的git仓库	
 			```
 				git clone <remote respository>
 			```	
-			[clone](src/base/clone.png)
-			此时当前工作目录中会创建一个和远程仓库同名的文件夹，若要指定别名可以使用下面命令
+			![clone](src/base/clone.png)
+			<p>此时当前工作目录中会创建一个和远程仓库同名的文件夹，若要指定别名可以使用下面命令</p>
 			```
 				git clone <remote respository> dirname
 			```
@@ -88,7 +88,7 @@
 		* 已跟踪指文件已纳入版本管理，可以是已修改、未修改、已暂存
 		* 工作目录中除了已跟踪的文件，其他的都是未跟踪文件
 		* 从远程服务器克隆仓库后所包含的文件都是已跟踪文件
-		[lifestyle](src/life/lifecycle.jpg)
+		![lifestyle](src/life/lifecycle.jpg)
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
