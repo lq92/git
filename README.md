@@ -93,17 +93,17 @@
 			```
 				git status
 			```	
-			![status_clear](src/status/status_clear)
+			![status_clear](src/status/status_clear.png)
 		* 新建一个文件，此时该文件的状态是未跟踪(untracked)
-			![status_untracked](src/status/status_untracked)
+			![status_untracked](src/status/status_untracked.png)
 			**此时可以使用git add filename || . || dirname命令将该文件纳入跟踪状态**
 			<p>git add可以使用文件名或目录路径作为参数，若是目录路径则跟踪该目录下所有的文件</p>
 			```
-				git add test.txt || .
+				git add test.txt || . || dirname
 			```	
-			![status_tracked](src/status/status_tracked)
+			![status_tracked](src/status/status_tracked.png)
 		* 修改已暂存的文件
-			![status_modified](src/status/status_modified)	
+			![status_modified](src/status/status_modified.png)	
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
