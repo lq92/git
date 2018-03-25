@@ -88,6 +88,22 @@
 		* 工作目录中除了已跟踪的文件，其他的都是未跟踪文件
 		* 从远程服务器克隆仓库后所包含的文件都是已跟踪文件
 		![lifestyle](src/life/lifecycle.jpg)
+	* **查看文件状态**
+		* 此时表明当前文件夹中的所有文件都是已跟踪未修改文件，且当前分支是master分支
+			```
+				git status
+			```	
+			![status_clear](src/status/status_clear)
+		* 新建一个文件，此时该文件的状态是未跟踪(untracked)
+			![status_untracked](src/status/status_untracked)
+			**此时可以使用git add filename || . || dirname命令将该文件纳入跟踪状态**
+			<p>git add可以使用文件名或目录路径作为参数，若是目录路径则跟踪该目录下所有的文件</p>
+			```
+				git add test.txt || .
+			```	
+			![status_tracked](src/status/status_tracked)
+		* 修改已暂存的文件
+			![status_modified](src/status/status_modified)	
 git的状态可以通过命令行git status查看文件的具体状态(Windows系统下通过cmd查看)	
 
 
